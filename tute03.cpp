@@ -9,6 +9,7 @@ using namespace std;
 int main()
 {
     int no;
+    int r;
     long fac;
 
     cout<<"Enter a Number : ";
