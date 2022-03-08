@@ -27,13 +27,13 @@ int main()
    
    switch (etype) {
       case 1 :
-          otRate = 1000;
+          cout<<"otRate = 1000"<<endl;
           break;
       case 2 :
-          otRate = 1500;
+          cout<<"otRate = 1500"<<endl;
           break;
       default :
-          otRate = 1700;
+          cout<<"otRate = 1700"<<endl;
           break;
    }
 
