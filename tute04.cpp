@@ -29,18 +29,10 @@ int main() {
 }
 long Factorial(int no)
 {
-    int i=1, fact=1;
-    while(i<=no)
-    {
-        fact = i*fact;
-        i++;
-    }
-    return fact;
-}
-int findNCR(int n, int r)
-{
-    int npr, ncr;
-    npr = findNPR(n, r);
-    ncr = npr/findFact(r);
-    return ncr;
+	int i, fact = 1;
+	for (i = 2; i <= no; i++)
+	{
+		fact = fact * i;
+	}
+	return fact;
 }
