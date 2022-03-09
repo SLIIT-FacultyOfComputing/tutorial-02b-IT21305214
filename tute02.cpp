@@ -14,7 +14,7 @@ Please Note that the input command in C++ is std::cin. This is a representation 
 
 #include <iostream>
 using namespace std;
-int main()
+int main ()
 {
    double salary, netSalary;
    int etype, otHrs, otRate;
