@@ -27,13 +27,20 @@ int main() {
   std::cout << std::endl;
   return 0;
 }
-int fact(int n)
+long Factorial(int no)
 {
-  int i, f=1;
-  for(i=1;i<=n;i++)
+    int i=1, fact=1;
+    while(i<=no)
     {
-        f=f*i;
+        fact = i*fact;
+        i++;
     }
-    return f;
+    return fact;
 }
-  
+int findNCR(int n, int r)
+{
+    int npr, ncr;
+    npr = findNPR(n, r);
+    ncr = npr/findFact(r);
+    return ncr;
+}
